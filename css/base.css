@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    font-family: 'Inter';
+    font-weight: 400; /* Largura da fonte */
+    line-height: normal;
+}
+
+li {
+    list-style: none;
+}
+
+.container{
+    width: 1000px;
+}
+
+.container-main{
+    width: 50%;
+}

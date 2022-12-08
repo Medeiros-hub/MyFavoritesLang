@@ -1,0 +1,128 @@
+:root {
+    --color-blue: #4A56F9;
+    --color-red: #BE123C;
+    --color-black: #1F2937;
+    --color-white: #F1F5F9;
+    --color-gray: #64748B;
+    --color-deepblue: #3A5479;
+}
+
+header {
+    background-color: var(--color-white);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .user {
+    display: flex;
+    align-items: center;
+    font-size: 80%;
+}
+
+header .user img {
+    width: 20px;
+    height: 20px;
+}
+
+header .user section {
+    margin-left: 5px;
+}
+
+main {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container form {
+    margin-bottom: 20px;
+    display: flex;    
+}
+
+main .container form input[type="text"] {
+    width: 80%;
+    height: 35px;
+    margin-right: 5px;
+    background-color: var(--color-gray);
+    color: var(--color-white);
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+
+main .container form input[type="text"]::placeholder {
+    color: var(--color-deepblue);
+}
+
+main .container form input[type="submit"] {
+    width: calc(100% - 80%);
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: none;
+    font-weight: bolder;
+}
+
+main .container li {
+    background-color:var(--color-white);
+    margin: 5px 0;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .container li > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container li div > * {
+    margin: 0 20px;
+}
+
+main .container li figure img {
+    width: 25px;
+    height: 25px;
+}
+
+main .container li > section:first-of-type {
+    margin: 0 20px;
+}
+
+main .container .grades {
+    font-size: 30pt;
+}
+
+main .container .grades .high-grade {
+    color: var(--color-blue);
+}
+
+main .container .grades .low-grade {
+    color: var(--color-red);
+}
+
+footer {
+    margin: 200px 0 30px 0;
+}
+
+footer .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-deepblue);
+}
